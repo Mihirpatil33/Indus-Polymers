@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: Courier;
+    margin: 0;
+    padding: 0;
+    background-color: #89ABE3;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.taskbar {
+    background-color: #555;
+}
+
+.taskbar ul {
+    list-style: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align the list items */
+    font-family: 'Courier New';
+    font-size: 100;
+}
+
+.taskbar li {
+    display: inline; /* Display list items horizontally */
+    margin: 0 10px; /* Add spacing between list items */
+}
+
+.taskbar a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for the links */
+    padding: 10px; /* Add padding to the links */
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+    font-size: x-large;
+}
+
+.taskbar a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: none;
+    font-family: Georgia;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.city a {
+    color:yellow;
+    transition: background-color 0.3s;
+    font-size: x-large;
+    font-family: verdana;
+    text-align:center;
+}
+
+h1{
+    text-align: center ;
+    font-family: Arial;
+}
+
+.inform h1{
+    text-align:center;
+    color: cyan;
+}
+.inform h2{
+    color:white;
+}
+
+ .inform {
+ text-align: center;
+ font-size: xx-large;
+ font-family: Georgia ;
+ background-image: url("https://www.slidebackground.com/uploads/best/best-abstract-ppt-background.jpg");
+ color:black;
+}
+
+.taskbar img{
+    width: 1400px;
+  height: 2000px;
+}
+
+.image img{
+    width: 1400px;
+    height: 200px;
+}
+
+.image header{
+    background-color: whitesmoke;
+}
+
+
+.inform img{
+    width: 800px;
+    height: 400px;
+}
+
+.city{
+    background-image: url("https://www.wallpapertip.com/wmimgs/11-117811_colour-background-wallpaper-hd.jpg");
+}
+
+.city p{
+    color:white;
+}
+
+
